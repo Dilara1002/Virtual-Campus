@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karabük Üniversitesi Sanal Kampüs - Örnek Görseller</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #1A3E83;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .example-section {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #1A3E83;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .image-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .image-caption {
+            padding: 10px;
+            background-color: #f9f9f9;
+            font-size: 14px;
+        }
+        
+        .full-width-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .description {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .example-interface {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Karabük Üniversitesi Sanal Kampüs</h1>
+        <p class="subtitle">3D ve Etkileşimli Kampüs Deneyimi - Örnek Görseller</p>
+    </header>
+    
+    <div class="container">
+        <div class="example-section">
+            <h2>Ana Sanal Kampüs Görünümü</h2>
+            <p class="description">3D Sanal Kampüs uygulamasının ana ekranı bu şekilde görünecektir. Kullanıcılar kampüsün 3D modelini inceleyebilir, binaları seçebilir ve kampüs içinde gezinebilirler.</p>
+            
+            <img src="https://i.imgur.com/U8cXoFl.jpg" alt="3D Kampüs Görünümü" class="full-width-image">
+        </div>
+        
+        <div class="example-section">
+            <h2>Kullanıcı Arayüzü Örneği</h2>
+            <p class="description">Aşağıdaki görsel, kullanıcıların göreceği arayüzün bir örneğidir. Navigasyon kontrolleri, bina seçimi ve bilgi panelleri ile etkileşimli bir deneyim sunulacaktır.</p>
+            
+            <div class="example-interface">
+                <img src="https://i.imgur.com/JY8wUjt.png" alt="Kullanıcı Arayüzü" class="full-width-image">
+            </div>
+        </div>
+        
+        <div class="example-section">
+            <h2>Kampüs Binaları</h2>
+            <p class="description">Sanal kampüste yer alacak binaların gerçek görüntüleri ve 3D modelleri. Bu görüntüler bilgi panellerinde ve detay sayfalarında kullanılacaktır.</p>
+            
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="https://i.imgur.com/jPk3Pfy.jpg" alt="Mühendislik Fakültesi">
+                    <div class="image-caption">Mühendislik Fakültesi</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.imgur.com/pUaMj9Z.jpg" alt="Merkez Kütüphane">
+                    <div class="image-caption">Merkez Kütüphane</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.imgur.com/YgSVzdt.jpg" alt="Rektörlük Binası">
+                    <div class="image-caption">Rektörlük Binası</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.imgur.com/7NKhRmN.jpg" alt="Öğrenci Merkezi">
+                    <div class="image-caption">Öğrenci Merkezi</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.imgur.com/LgUvjU5.jpg" alt="Spor Kompleksi">
+                    <div class="image-caption">Spor Kompleksi</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="example-section">
+            <h2>Bina Bilgi Paneli</h2>
+            <p class="description">Kullanıcılar bir binaya tıkladığında açılan bilgi paneli. Burada binanın detayları, içerdiği birimler, çalışma saatleri gibi bilgiler yer alacaktır.</p>
+            
+            <img src="https://i.imgur.com/V9Zy9PF.jpg" alt="Bina Bilgi Paneli" class="full-width-image">
+        </div>
+        
+        <div class="example-section">
+            <h2>Kat Planları</h2>
+            <p class="description">Binalara ait iç kat planları. Kullanıcılar binaların iç yerleşimini görebilecek ve odalar hakkında bilgi alabilecekler.</p>
+            
+            <img src="https://i.imgur.com/8ZyLtXe.jpg" alt="Kat Planı Örneği" class="full-width-image">
+        </div>
+        
+        <div class="example-section">
+            <h2>Mobil Görünüm</h2>
+            <p class="description">Sanal Kampüs uygulaması mobil cihazlarda da kullanılabilecek. Mobil ekranlara uyarlanmış arayüz aşağıdaki gibi görünecektir.</p>
+            
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="https://i.imgur.com/a1MlfLu.jpg" alt="Mobil Görünüm">
+                    <div class="image-caption">Mobil Arayüz</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="example-section">
+            <h2>Kampüs Haberleri</h2>
+            <p class="description">Uygulama içerisinde kampüs haberlerini ve duyurularını gösterecek bölüm.</p>
+            
+            <img src="https://i.imgur.com/nduQK0g.jpg" alt="Kampüs Haberleri" class="full-width-image">
+        </div>
+        
+        <div class="example-section">
+            <h2>Gezinti Kontrolleri</h2>
+            <p class="description">Kullanıcıların 3D kampüs içerisinde gezinmesini sağlayacak kontrol arayüzü.</p>
+            
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="https://i.imgur.com/fhHHzH1.png" alt="Gezinti Kontrolleri">
+                    <div class="image-caption">Kamera Kontrolleri</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2023 Karabük Üniversitesi Sanal Kampüs Projesi. Tüm görseller örnek amaçlıdır.</p>
+        <p>Not: Bu sayfa, sanal kampüs uygulamasının görselleme yönünü göstermek için hazırlanmıştır. Gerçek uygulamada Karabük Üniversitesi'nin kendi binaları ve logoları kullanılacaktır.</p>
+    </footer>
+</body>
+</html> 

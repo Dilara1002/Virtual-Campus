@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Karabük Üniversitesi 3D Sanal Kampüs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Karabük Üniversitesi öğrencileri, akademisyenleri ve ziyaretçileri için 3D ve etkileşimli bir sanal kampüs deneyimi sunan web uygulaması.
 
-## Available Scripts
+![KBÜ Sanal Kampüs Ana Ekran](https://i.imgur.com/JY8wUjt.png)
 
-In the project directory, you can run:
+## Özellikler
 
-### `npm start`
+- 3D kampüs görüntüleme ve gezinti
+- Bina bilgi panelleri
+- Kat planları
+- Kampüs haberleri ve duyuruları
+- Mobil uyumlu arayüz
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Örnek Ekran Görüntüleri
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Ana 3D Kampüs Görünümü
 
-### `npm test`
+Bu görsel, kullanıcıların göreceği ana 3D kampüs görünümünü yansıtıyor:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![3D Kampüs Görünümü](https://i.imgur.com/U8cXoFl.jpg)
 
-### `npm run build`
+### Bina Detay Paneli
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Kullanıcılar binalara tıkladıklarında açılan bilgi paneli:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Bina Bilgi Paneli](https://i.imgur.com/V9Zy9PF.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Kat Planı Görünümü
 
-### `npm run eject`
+Binaların iç planlarını gösteren kat planı arayüzü:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Kat Planı Örneği](https://i.imgur.com/8ZyLtXe.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Kampüs Binalarında Kullanılacak Görseller
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Aşağıdaki görseller, 3D modellerin yapımında ve bilgi panellerinde kullanılabilir:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Mühendislik Fakültesi
 
-## Learn More
+![Mühendislik Fakültesi](https://i.imgur.com/jPk3Pfy.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Merkez Kütüphane
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Merkez Kütüphane](https://i.imgur.com/pUaMj9Z.jpg)
 
-### Code Splitting
+### Rektörlük Binası
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Rektörlük Binası](https://i.imgur.com/YgSVzdt.jpg)
 
-### Analyzing the Bundle Size
+### Öğrenci Merkezi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Öğrenci Merkezi](https://i.imgur.com/7NKhRmN.jpg)
 
-### Making a Progressive Web App
+### Spor Kompleksi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Spor Kompleksi](https://i.imgur.com/LgUvjU5.jpg)
 
-### Advanced Configuration
+## Uygulama Arayüzü Görselleri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Mobil Görünüm
 
-### Deployment
+![Mobil Görünüm](https://i.imgur.com/a1MlfLu.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Kampüs Haberleri Bölümü
 
-### `npm run build` fails to minify
+![Kampüs Haberleri](https://i.imgur.com/nduQK0g.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Kullanım Kılavuzu
+
+### Gezinti Kontrolleri
+
+![Gezinti Kontrolleri](https://i.imgur.com/fhHHzH1.png)
+
+- **Sol Tıklama + Sürükleme**: Kamerayı döndür
+- **Sağ Tıklama + Sürükleme**: Kamerayı kaydır
+- **Fare Tekerleği**: Yakınlaştır/Uzaklaştır
+- **Binalara Tıklama**: Bina bilgilerini görüntüle
+
+## Teknik Detaylar
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **3D Görselleştirme**: Three.js
+- **Duyarlı Tasarım**: Farklı ekran boyutlarına uyumlu
+
+## Geliştirme
+
+1. Depoyu klonlayın
+2. Gerekli bağımlılıkları yükleyin
+3. Yerel sunucuda çalıştırın
+
+```bash
+git clone https://github.com/karabukuniversitesi/sanal-kampus.git
+cd sanal-kampus
+# Basit bir HTTP sunucusu başlatmak için
+python -m http.server
+```
+
+---
+
+*Not: Yukarıdaki görseller tasarım amaçlıdır. Gerçek uygulama için Karabük Üniversitesi'nin kendi görsellerinin kullanılması önerilir.*
